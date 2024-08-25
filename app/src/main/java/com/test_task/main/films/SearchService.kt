@@ -13,7 +13,8 @@ class SearchService {
     }
 
     private fun isInNames(film: Film, key: String) =
-        (film.nameRu?.contains(key) == true) || (film.nameOriginal?.contains(key) == true)
+        (film.nameRu?.contains(key, true) == true)
+                || (film.nameOriginal?.contains(key, true) == true)
 
     fun isContainsKey(film: Film, key: String) = (key == "")
                 || isInNames(film, key)
@@ -22,7 +23,7 @@ class SearchService {
 
     private fun isInCountries(film: Film, key: String) : Boolean {
         for (el in film.countries) {
-            if (el.country?.contains(key) == true)
+            if (el.country?.contains(key, true) == true)
                 return true
         }
         return false
@@ -30,7 +31,7 @@ class SearchService {
 
     private fun isInGenres(film: Film, key: String) : Boolean {
         for (el in film.genres) {
-            if (el.genre?.contains(key) == true)
+            if (el.genre?.contains(key, true) == true)
                 return true
         }
         return false

@@ -42,6 +42,7 @@
 
         <EditText
             android:id="@+id/search_et"
+            android:textColor="@color/white"
             android:layout_width="0dp"
             android:padding="10dp"
             android:layout_height="40dp"

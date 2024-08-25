@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KinoPoisk</string>
+    <string name="password_text">Пароль</string>
+    <string name="login_text">Логин</string>
+    <string name="enter_text">Войти</string>
+    <string name="incorrect_password_or_invalid_data">
+        Неправильный пароль или некорректные данные</string>
+    <string name="successful_auth">Успешный вход</string>
+    <string name="default_year">2024</string>
+    <string name="empty_genres">Жанр не указан</string>
+    <string name="no_countries">Страна не указана</string>
+    <string name="data_loaded">Данные загружены</string>
+    <string name="sort_type">Тип сортировки: </string>
+    <string name="error_loading">Ошибка загрузки </string>
+
+</resources>

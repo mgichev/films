@@ -12,4 +12,4 @@ Application for viewing pages from Kinopoisk
 # Страница фильма
 ![](screenshots/page.PNG)
 
-В приложении реализованы все функции, указанные в ТЗ
+В приложении реализованы все функции, указанные в ТЗ.

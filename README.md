@@ -1,4 +1,4 @@
-# test_task
+# Приложение Список Фильмов
 Application for viewing pages from Kinopoisk
 
 # Авторизация
